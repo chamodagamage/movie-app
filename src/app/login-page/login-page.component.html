@@ -1,0 +1,9 @@
+
+<div class="login-page-container">
+ <form  [formGroup]='loginData' (ngSubmit) = 'userLogin()' class="form">
+    <input type="text"   formControlName='name' placeholder="User Name"><br>
+    <input type="password"  formControlName='password' placeholder="Password"><br>
+    <input type="submit" value="SIGN IN"><br>
+    <span><a href="#">Forgot Password?</a></span>
+ </form>
+</div>

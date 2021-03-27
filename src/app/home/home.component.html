@@ -1,0 +1,26 @@
+
+<div class="home-body">
+    <div *ngFor='let item of LikedMovielist' class ='movie-container'>
+        <span class='movie-details'>
+            <table>
+                <tr>
+                    <td class="first-coloumn">Title</td>
+                    <td class="second-coloumn">{{item.title}}</td>
+                </tr>
+                <tr>
+                    <td class="first-coloumn">Year</td>
+                    <td class="second-coloumn">{{item.year}}</td>
+                </tr>
+                <tr>
+                    <td class="first-coloumn">Cast</td>
+                    <td class="second-coloumn">{{item.cast}}</td>
+                </tr>
+            </table>
+        </span>
+        <div class="liked-btn-container">
+            <button (click) = 'unlikeMovie(item.id)' mat-mini-fab  color="warn" aria-label="Example icon button with a delete icon">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </div>
+    </div>
+</div>

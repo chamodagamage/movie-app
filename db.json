@@ -1,0 +1,112 @@
+{
+  "cinema": [
+          {
+              "id":  "752d113ba36d4d2f8347cdd38458ff90",
+              "name": "Sunshine Cinemas"
+          },
+          {
+              "id":  "bf2ed92d332b45ddb591c89a5a6a4646",
+              "name": "Westworld Cinemas"
+          }
+  ],
+  "movies": [
+      {
+          "id": "1e1a7a36a4ac4173a7a0301b77d9631c",
+          "title": "Raya and the last dragon",
+          "year": "2021",
+          "cast": "Kelly Marie Tran, Awkwafina, Gemma Chan"
+      },
+      {
+          "id": "796627d80a7e4965bf5d11ffa8f45ad9",
+          "title": "Braveheart",
+          "year": "1995",
+          "cast": "Mel Gibson, Sophie Marceau, Patrick McGoohan"
+      },
+      {
+          "id": "7bd27f8abe7f4ee79e1c94871a3bfe35",
+          "title": "Avatar",
+          "year": "2009",
+          "cast": "Sam Worthington, Zoe Saldana, Sigourney Weaver"
+      },
+      {
+          "id": "c57a09e952bf4767a25acad4e0749c23",
+          "title": "Star Wars: Episode IV - A New Hope",
+          "year": "1977",
+          "cast": "Mark Hamill, Harrison Ford, Carrie Fisher"
+      },
+      {
+          "id": "ad20827e121146a181f15b7ed26cfbb4",
+          "title": "Titanic",
+          "year": "1997",
+          "cast": "Leonardo DiCaprio, Kate Winslet, Billy Zane"
+      },
+      {
+          "id": "ee11c28587ac407bbf8a70b60075d87e",
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "year": "2001",
+          "cast": "Elijah Wood, Ian McKellen, Orlando Bloom"
+      },
+      {
+          "id": "d917851d758248f68fb17eaa7d3b156d",
+          "title": "The Godfather",
+          "year": "1972",
+          "cast": "Marlon Brando, Al Pacino, James Caan"
+      },
+      {
+          "id": "36dbd9e080df40e9b52e97b5aab92f80",
+          "title": "Mad Max: Fury Road",
+          "year": "2015",
+          "cast": "Tom Hardy, Charlize Theron, Nicholas Hoult"
+      },
+      {
+          "id": "496ed06217de4c639091066f0006726a",
+          "title": "HyperNormalisation",
+          "year": "2016",
+          "cast": "Adam Curtis, Donald Trump, Vladimir Putin"
+      },
+      {
+          "id": "56ca2a6faa4b4b4fa49353ba2c82bffe",
+          "title": "Ace Ventura: Pet Detective",
+          "year": "1994",
+          "cast": "Jim Carrey, Courteney Cox, Sean Young"
+      },
+      {
+          "id": "ad4bbe574c81420fac2f230c19e5a6c1",
+          "title": "Winnie the Pooh",
+          "year": "2011",
+          "cast": "Jim Cummings, Craig Ferguson, John Cleese"
+      }
+  ],
+  "users" : [
+      {
+          "id": "1e1a7a36a4ac4173a7a0301b77d9631d",
+          "name": "John",
+          "login": "jtest",
+          "password": "jtest1",
+          "cinema": "bf2ed92d332b45ddb591c89a5a6a4646",
+          "movies_liked": [
+              "1e1a7a36a4ac4173a7a0301b77d9631c", "7bd27f8abe7f4ee79e1c94871a3bfe35", "c57a09e952bf4767a25acad4e0749c23"
+          ]
+      },
+      {
+          "id": "1e1a7a36a4ac4173a7a0301b77d9631e",
+          "name": "Sara",
+          "login": "stest",
+          "password": "stest1",
+          "cinema": "bf2ed92d332b45ddb591c89a5a6a4646",
+          "movies_liked": [
+              "796627d80a7e4965bf5d11ffa8f45ad9", "c57a09e952bf4767a25acad4e0749c23", "c57a09e952bf4767a25acad4e0749c23"
+          ]
+      },
+      {
+          "id": "1e1a7a36a4ac4173a7a0301b77d9631f",
+          "name": "Pocahontas",
+          "login": "ptest",
+          "password": "ptest1",
+          "cinema": "752d113ba36d4d2f8347cdd38458ff90",
+          "movies_liked": [
+              "36dbd9e080df40e9b52e97b5aab92f80", "496ed06217de4c639091066f0006726a", "56ca2a6faa4b4b4fa49353ba2c82bffe"
+          ]
+      }
+  ]
+}
